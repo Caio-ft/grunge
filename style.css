@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+body#oqeg {
+    background-image: url(imagens/grungewpp.jpg);
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: cover;
+    background-color: black;
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+body#ambg {
+    background-image: url(imagens/grungewpp.jpg);
+    background-repeat: repeat-y;
+    background-position: center top;
+    background-size: cover;
+    background-color: black;
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    padding-top: 1px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.507);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.164);
+    max-width: 500px;
+    font-weight: light;
+}
+
+main > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    margin: 0px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.507);
+}
+
+h1#Titulo {
+    color: white;
+    text-align: center;
+}
+
+a.nav {
+    color: white;
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    transition-duration: 1s;
+}
+
+a.nav:hover {
+    text-decoration: underline solid;
+    color: black;
+    background: rgb(255, 255, 255);
+}
+
+a.externo {
+    text-decoration: none;
+    color: black  
+}
+
+a.externo:hover {
+    text-decoration: underline;
+}
